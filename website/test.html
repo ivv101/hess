@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HESS</title>
+    <link href="bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>HESS</h2>
+      <p>Click on the button to toggle between showing and hiding content.</p>
+      <button class="btn btn-info" type="button" data-bs-target="#demo" data-bs-toggle="collapse">
+        Simple collapsible
+      </button>
+      <div class="collapse" id="demo">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit
+      </div>
+      <p>
+        <a class="btn btn-primary" href="#multiCollapseExample1" role="button" data-bs-toggle="collapse">
+          Toggle first element
+        </a>
+        <button class="btn btn-primary" type="button" data-bs-target="#multiCollapseExample2" data-bs-toggle="collapse">
+          Toggle second element
+        </button>
+        <button class="btn btn-primary" type="button" data-bs-target=".multi-collapse" data-bs-toggle="collapse">
+          Toggle both elements
+        </button>
+      </p>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <img src="CXO_coverage.png" alt="" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
